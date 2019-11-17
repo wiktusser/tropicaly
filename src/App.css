@@ -40,6 +40,20 @@
   object-fit: cover;
   z-index: -100;
 }
+.maintext_container {
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.videobtn_container {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 /* 
 video {
   display: inline-block;

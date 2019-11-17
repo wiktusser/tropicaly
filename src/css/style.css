@@ -194,6 +194,7 @@ a i{
 }
 .back.two{
     background-image:url("../assets/img/backs/back02.jpg");
+    background-position-y: center;
 }
 .back.three{
     background-image:url("../assets/img/backs/back03.jpg");
@@ -353,12 +354,12 @@ header .logo img{
 }
 header .logo{
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 400;
     color: #ad974f;
     letter-spacing: 2px;
     /* text-transform: uppercase; */
     /* text-shadow: 0px 0px 7px rgba(212, 212, 212, 0.67); */
-    -webkit-text-stroke: 0.05px #504433;
+    -webkit-text-stroke: 1px #504433;
     font-family: 'Skranji', cursive;
     /* width: 200px; */
     float: left;

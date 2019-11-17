@@ -1,16 +1,17 @@
 import React from "react";
 import Menu from "./Menu";
 
-import logo from '../assets/img/logo.png';
+
+// import logo from '../assets/img/logo.png';
 
 class Header extends React.Component {
   render() {
     return (
-      <header className="b-gold">
+      <header className={!this.props.isTransparent ? 'b-gold white' : 'b-gold'}>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             {}
-            <div className="logo" href="#">
+            <div className="logo" href="#" onClick={this.props.toggleDisplay}>
               {/* <img
                 src={logo}
                 alt="Exodus"

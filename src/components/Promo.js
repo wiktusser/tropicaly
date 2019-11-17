@@ -1,10 +1,3 @@
-import img1 from "../assets/img/promo/scotland.jpg";
-import img2 from "../assets/img/promo/positano.jpg"
-import img3 from "../assets/img/promo/newyork.jpg"
-import img4 from "../assets/img/promo/morocco.jpg"
-import img5 from "../assets/img/promo/venezuela.jpg"
-import img6 from "../assets/img/promo/rome.jpg"
-import img7 from"../assets/img/promo/autralia.jpg"
 import React from "react";
 
 class Promo extends React.Component {
