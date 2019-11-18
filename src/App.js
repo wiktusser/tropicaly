@@ -3,10 +3,11 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import ScrollToTop from './ScrollToTop';
+
+
 
 import './App.css';
 import './css/animate.css';
@@ -24,7 +25,7 @@ import SliderContainer from './components/SliderContainer';
 import Promo from './components/Promo';
 import MainOffer from './components/MainOffer';
 import Upcoming from './components/Upcoming';
-import Quotes from './components/Quotes';
+// import Quotes from './components/Quotes';
 import Newsletter from './components/Newsletter';
 
 import PageHeader from './components/about/PageHeader';
