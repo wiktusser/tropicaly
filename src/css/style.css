@@ -364,10 +364,9 @@ header .logo{
     /* width: 200px; */
     float: left;
 }
-/* header .logo a{
-    text-decoration: none;
+header .logo span{
     color: #f9f9f9;
-} */
+}
 
 header .menu {
     height: 20px;

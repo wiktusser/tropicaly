@@ -1,6 +1,6 @@
 import React from "react";
 
-class Section4 extends React.Component {
+class Newsletter extends React.Component {
   render() {
     return (
       <div className="section back four">
@@ -71,4 +71,4 @@ class Section4 extends React.Component {
   }
 }
 
-export default Section4;
+export default Newsletter;

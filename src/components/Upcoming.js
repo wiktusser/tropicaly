@@ -1,6 +1,6 @@
 import React from "react";
 
-class Section2 extends React.Component {
+class Upcoming extends React.Component {
   render() {
     return (
       <div className="section white">
@@ -125,4 +125,4 @@ class Section2 extends React.Component {
   }
 }
 
-export default Section2;
+export default Upcoming;

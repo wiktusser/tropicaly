@@ -10,16 +10,16 @@ class Header extends React.Component {
       <header className={!this.props.isTransparent ? 'b-gold white' : 'b-gold'}>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
-            {}
+
             <div className="logo" href="#" onClick={this.props.toggleDisplay}>
               {/* <img
                 src={logo}
                 alt="Exodus"
                 className="img-fluid"
               /> */}
-              tropicaly
+              tropica<span>.ly</span>
             </div>
-            {}
+
             <button
               className="navbar-toggler first-button"
               type="button"

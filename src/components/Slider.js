@@ -1,6 +1,5 @@
 import React from "react";
-import SliderNavigation from "./SliderNavigation";
-import Slide1 from "./Slide1";
+
 
 class Slider extends React.Component {
   render() {

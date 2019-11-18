@@ -1,6 +1,6 @@
 import React from "react";
 
-class Section3 extends React.Component {
+class Quotes extends React.Component {
   render() {
     return (
       <div id="testimonial" className="section white ">
@@ -86,4 +86,4 @@ class Section3 extends React.Component {
   }
 }
 
-export default Section3;
+export default Quotes;

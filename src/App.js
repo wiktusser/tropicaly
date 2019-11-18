@@ -22,10 +22,10 @@ import './css/style.css';
 import Header from './components/Header';
 import SliderContainer from './components/SliderContainer';
 import Promo from './components/Promo';
-import Section1 from './components/Section1';
-import Section2 from './components/Section2';
-import Section3 from './components/Section3';
-import Section4 from './components/Section4';
+import MainOffer from './components/MainOffer';
+import Upcoming from './components/Upcoming';
+import Quotes from './components/Quotes';
+import Newsletter from './components/Newsletter';
 
 import PageHeader from './components/about/PageHeader';
 import AboutOffer from './components/about/AboutOffer';
@@ -55,9 +55,9 @@ class App extends React.Component {
             <Route path="/">
               <SliderContainer />
               <Promo />
-              <Section1 />
-              <Section2 />
-              <Section4 />
+              <MainOffer />
+              <Upcoming />
+              <Newsletter />
             </Route>
           </Switch>
           <Footer />

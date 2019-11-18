@@ -1,9 +1,9 @@
 import React from "react";
 
-class Slide1 extends React.Component {
+class MainSliderText extends React.Component {
   render() {
     return (
-      <div className="carousel-item">
+      <div className="maintext_item">
         <div className="img-container slide five">
           <div className="content-box">
             <div className="content-data">
@@ -17,12 +17,9 @@ class Slide1 extends React.Component {
                 Experience <span className="ft-word">epic</span> beauty
               </div>
               <a
-                href="promo-page.html"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
                 className="primary-btn no-bg large border-2 b-white white t-white aos-init aos-animate"
               >
-                Explore
+                See video
               </a>
             </div>
           </div>
@@ -33,4 +30,4 @@ class Slide1 extends React.Component {
   }
 }
 
-export default Slide1;
+export default MainSliderText;

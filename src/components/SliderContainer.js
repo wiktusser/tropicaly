@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "./Slider";
+import MainSliderText from "./MainSliderText";
 
 class SliderContainer extends React.Component {
   render() {
@@ -8,11 +9,7 @@ class SliderContainer extends React.Component {
         <div className="content center">
           <Slider></Slider>
           <div className="maintext_container">
-            <div>
-              <h2 className="t-white">
-                Live<span className="t-gold">unsetteled</span>
-              </h2>
-            </div>
+            <MainSliderText />
           </div>
           <div className="videobtn_container">
             <div>

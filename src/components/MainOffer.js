@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollAnimation from 'react-animate-on-scroll';
 
-class Section1 extends React.Component {
+class MainOffer extends React.Component {
   render() {
     return (
       <div id="offer" className="section offer">
@@ -71,4 +71,4 @@ class Section1 extends React.Component {
   }
 }
 
-export default Section1;
+export default MainOffer;

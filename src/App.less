@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -48,10 +44,19 @@
 
 .maintext_container {
   position: absolute;
-    bottom: 50%;
+    // bottom: 50%;
+    top:20%;
     width: 100%;
     display: flex;
     justify-content: center;
+
+    .maintext_item{
+      position: relative;
+      width: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      transition: transform .6s ease-in-out;
+    }
 }
 
 .videobtn_container {
