@@ -23,7 +23,7 @@ class OurServices extends React.Component {
             <div className="col-lg-3">
               <div className="info-box light-grey">
                 <i className="fas fa-bed" />
-                <h5 className="t-black">Worldwide hotel reservation</h5>
+                <h5 className="t-black">Accomodation</h5>
               </div>
             </div>
             {}
@@ -31,7 +31,7 @@ class OurServices extends React.Component {
             <div className="col-lg-3">
               <div className="info-box light-grey">
                 <i className="fas fa-car" />
-                <h5 className="t-black">Worldwide car rental and drive</h5>
+                <h5 className="t-black">All transfers</h5>
               </div>
             </div>
             {}
@@ -39,7 +39,7 @@ class OurServices extends React.Component {
             <div className="col-lg-3">
               <div className="info-box light-grey">
                 <i className="fas fa-concierge-bell" />
-                <h5 className="t-black">Ground handling services</h5>
+                <h5 className="t-black">Resident care</h5>
               </div>
             </div>
             {}
@@ -55,7 +55,7 @@ class OurServices extends React.Component {
             <div className="col-lg-3">
               <div className="info-box light-grey">
                 <i className="far fa-handshake" />
-                <h5 className="t-black">Conferences & MICE specialists</h5>
+                <h5 className="t-black">Workshops & trainings</h5>
               </div>
             </div>
             {}
@@ -63,7 +63,7 @@ class OurServices extends React.Component {
             <div className="col-lg-3">
               <div className="info-box light-grey">
                 <i className="far fa-star" />
-                <h5 className="t-black">Limousine & VIP treatment</h5>
+                <h5 className="t-black">VIP treatment</h5>
               </div>
             </div>
             {}
@@ -71,7 +71,7 @@ class OurServices extends React.Component {
             <div className="col-lg-3">
               <div className="info-box light-grey">
                 <i className="fas fa-anchor" />
-                <h5 className="t-black">Personalized world cruises</h5>
+                <h5 className="t-black">Personalized care</h5>
               </div>
             </div>
             {}

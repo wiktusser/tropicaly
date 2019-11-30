@@ -1,4 +1,5 @@
 import React from "react";
+import Typist from 'react-typist';
 
 class MainSliderText extends React.Component {
   render() {
@@ -7,20 +8,31 @@ class MainSliderText extends React.Component {
         <div className="img-container slide five">
           <div className="content-box">
             <div className="content-data">
-              <h5 className="t-white">Breath-taking views</h5>
-              <span className="line gold" />
-              <div
-                className="display t-white aos-init aos-animate"
-                data-aos="fade-down"
-                data-aos-anchor-placement="center-bottom"
-              >
-                Experience <span className="ft-word">epic</span> beauty
+              {/* <h5 className="t-white">Breath-taking views</h5>
+              <span className="line gold" /> */}
+              <div className="display t-white">
+                <Typist cursor={
+                  {
+                    show: true,
+                    blink: false,
+                    element: '|',
+                    hideWhenDone: true,
+                    hideWhenDoneDelay: 0,
+                  }
+                }>
+                  {/* //on mouse move? */}
+                  <Typist.Delay ms={4500} />
+                  <span>Do your job</span> 
+                  <Typist.Backspace count={11} delay={800} />
+                  <Typist.Delay ms={500} />
+                  <span>Keep your job.</span>
+                  <br />
+                  <Typist.Delay ms={1000} />
+                  <span className="ft-word">See the world</span>
+                </Typist>
+
               </div>
-              <a
-                className="primary-btn no-bg large border-2 b-white white t-white aos-init aos-animate"
-              >
-                See video
-              </a>
+
             </div>
           </div>
           <div className="gradient-overlay op-5" />
