@@ -2,19 +2,27 @@ import React from "react";
 
 
 class Slider extends React.Component {
+  componentDidUpdate() {
+    this.props.shouldPlay ? 
+      document.getElementById("promoVideo").play() :
+     document.getElementById("promoVideo").pause();
+  }
+  
+
   render() {
     return (
       <div className="slider-container">
         <div id="slide-item" className="slide" data-ride="carousel">
-          <div className="carousel-inner2" data-poster-url="https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-poster-00001.jpg" 
-          data-video-urls="https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-transcode.mp4,https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-transcode.webm" 
-          data-autoplay="true" data-loop="true">
+          <div className="carousel-inner2" data-poster-url="https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-poster-00001.jpg"
+            data-video-urls="https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-transcode.mp4,https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-transcode.webm"
+            data-autoplay="true" data-loop="true">
             <video
+              id="promoVideo"
               autoPlay
               loop
               style={{
                 backgroundImage: 'url(https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-poster-00001.jpg',
-width: '100%'
+                width: '100%'
               }}
               muted
               playsInline>
