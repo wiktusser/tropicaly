@@ -14,7 +14,7 @@ class Slider extends React.Component {
               loop
               style={{
                 backgroundImage: 'url(https://assets-global.website-files.com/5a8dab23b7a50a0001e1ecc1/5c5881877dd3284b01ceb0b4_RYHeroVideo_Feb4-poster-00001.jpg',
-
+width: '100%'
               }}
               muted
               playsInline>
