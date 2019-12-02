@@ -6,10 +6,9 @@ class Footer extends React.Component {
       <footer>
         <div className="container">
           <div className="links t-black">
-            <a>Explore</a>
-            <a>About</a>
-            <a>Promotions</a>
-            <a>Blog</a>
+            <a>Home</a>
+            <a>Offer</a>
+            <a>Details</a>
             <a>Contact</a>
           </div>
           <div className="copyright t-grey center">

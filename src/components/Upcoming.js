@@ -15,35 +15,31 @@ class Upcoming extends React.Component {
               {}
               <div className="col-lg-4 left">
                 <div className="post-item">
-                  <img
-                    src="assets/img/ft-1.jpg"
-                    alt="exodus"
-                    className="img-fluid main"
-                  />
+                  img
                   <a href="blog-detail.html">
-                    <h4 className="t-black">Discovering Mikonos</h4>
+                    <h4 className="t-black">Discovering Bali</h4>
                   </a>
                   <div className="info-box-detail left">
                     <div className="post-info">
-                      By: <a className="author t-gold">Angela Manscori</a>
+                      When: <a className="author t-gold">March 2020</a>
                     </div>
                     <div className="post-views">
                       <img
                         src="assets/img/user1.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
                       <img
                         src="assets/img/user2.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
                       <img
                         src="assets/img/user3.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
-                      <span className="count">+110</span>
+                      <span className="count">+3</span>
                     </div>
                   </div>
                 </div>
@@ -52,27 +48,28 @@ class Upcoming extends React.Component {
               {}
               <div className="col-lg-4 left">
                 <div className="post-item">
-                  <img
+                  {/* <img
                     src="assets/img/ft-2.jpg"
                     alt="exodus"
                     className="img-fluid main"
-                  />
+                  /> */}
+                  img
                   <a href="blog-detail.html">
-                    <h4 className="t-black">The Island of Vulcano</h4>
+                    <h4 className="t-black">The Island of Vulcano -</h4>
                   </a>
                   <div className="info-box-detail left">
                     <div className="post-info">
-                      By: <a className="author t-gold">Nissur Al Bettur</a>
+                      When: <a className="author t-gold">Winter 2020</a>
                     </div>
                     <div className="post-views">
                       <img
                         src="assets/img/user1.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
                       <img
                         src="assets/img/user2.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
                     </div>
@@ -83,35 +80,36 @@ class Upcoming extends React.Component {
               {}
               <div className="col-lg-4 left">
                 <div className="post-item">
-                  <img
+                  {/* <img
                     src="assets/img/ft-3.jpg"
                     alt="exodus"
                     className="img-fluid main"
-                  />
+                  /> */}
+                  img
                   <a href="blog-detail.html">
-                    <h4 className="t-black">Cathedral in the Sea</h4>
+                    <h4 className="t-black">U S and A</h4>
                   </a>
                   <div className="info-box-detail left">
                     <div className="post-info">
-                      By: <a className="author t-gold">Jesus A. Barrero</a>
+                      When: <a className="author t-gold">Sometime</a>
                     </div>
                     <div className="post-views">
                       <img
                         src="assets/img/user1.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
                       <img
                         src="assets/img/user2.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
                       <img
                         src="assets/img/user3.jpg"
-                        alt="exodus"
+                        // alt="exodus"
                         className="img-fluid"
                       />
-                      <span className="count">+234</span>
+                      <span className="count">+2</span>
                     </div>
                   </div>
                 </div>
